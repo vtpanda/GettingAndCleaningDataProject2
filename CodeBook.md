@@ -28,3 +28,23 @@ The following steps were taken in the R script to produce the output file:
 The following fields are available:
 - Subject.Id - no transformation
 - Activity.Label - no transformation
+- BodyAccelerometer.mean.[XYZ] and BodyAccelerometer.std.[XYZ] - summed values of tBodyAcc-XYZ
+- GravityAccelerometer.mean.[XYZ] and GravityAccelerometer.std.[XYZ] - summed values of tGravityAcc-XYZ
+- BodyAccelerometerJerk.mean.[XYZ] and BodyAccelerometerJerk.std.[XYZ] - summed values of tBodyAccJerk-XYZ
+- BodyGyroscope.mean.[XYZ] and BodyGyroscope.std.[XYZ] - summed values of tBodyGyro-XYZ
+- BodyGyroscopeJerk.mean.[XYZ] and BodyGyroscopeJerk.std.[XYZ] - summed values of tBodyGyroJerk-XYZ
+- BodyAccelerometerMagnitude.mean and BodyAccelerometerMagnitude.std - summed values of tBodyAccMag
+- GravityAccelerometerMagnitude.mean and GravityAccelerometerMagnitude.std - summed values of tGravityAccMag
+- BodyAccelerometerJerkMagnitude.mean and BodyAccelerometerJerkMagnitude.std - summed values of tBodyAccJerkMag
+- BodyGyroscopeMagnitude.mean and BodyGyroscopeMagnitude.std - summed values of tBodyGyroMag
+- BodyGyroscopeJerkMagnitude.mean and BodyGyroscopeJerkMagnitude.std - summed values of tBodyGyroJerkMag
+- BodyAccelerometerFFT.mean.[XYZ] and BodyAccelerometerFFT.std.[XYZ] - summed values of fBodyAcc-XYZ
+- GravityAccelerometerFFT.mean.[XYZ] and GravityAccelerometerFFT.std.[XYZ] - summed values of fGravityAcc-XYZ
+- BodyAccelerometerJerkFFT.mean.[XYZ] and BodyAccelerometerJerkFFT.std.[XYZ] - summed values of fBodyAccJerk-XYZ
+- BodyGyroscopeFFT.mean.[XYZ] and BodyGyroscopeFFT.std.[XYZ] - summed values of fBodyGyro-XYZ
+- BodyGyroscopeJerkFFT.mean.[XYZ] and BodyGyroscopeJerkFFT.std.[XYZ] - summed values of fBodyGyroJerk-XYZ
+- BodyAccelerometerMagnitudeFFT.mean and BodyAccelerometerMagnitudeFFT.std - summed values of fBodyAccMag
+- BodyAccelerometerJerkMagnitudeFFT.mean and BodyAccelerometerJerkMagnitudeFFT.std - summed values of fBodyAccJerkMag
+- BodyGyroscopeMagnitudeFFT.mean and BodyGyroscopeMagnitudeFFT.std - summed values of fBodyGyroMag
+- BodyGyroscopeJerkMagnitudeFFT.mean and BodyGyroscopeJerkMagnitudeFFT.std - summed values of fBodyGyroJerkMag
+
